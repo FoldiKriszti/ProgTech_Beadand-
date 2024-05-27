@@ -46,6 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="User Control Panels\AddAdoption.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control Panels\AddAdoption.Designer.cs">
+      <DependentUpon>AddAdoption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdoptionData.cs" />
     <Compile Include="AnimalsData.cs" />
     <Compile Include="Design\Form1.cs">
       <SubType>Form</SubType>
@@ -91,6 +98,9 @@
     </Compile>
     <EmbeddedResource Include="Design\RegisterUser.resx">
       <DependentUpon>RegisterUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control Panels\AddAdoption.resx">
+      <DependentUpon>AddAdoption.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User Control Panels\AddAnimal.resx">
       <DependentUpon>AddAnimal.cs</DependentUpon>
