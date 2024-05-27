@@ -46,27 +46,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Windows Foms\Form1.cs">
+    <Compile Include="Design\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Windows Foms\Form1.Designer.cs">
+    <Compile Include="Design\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Windows Foms\RegisterUser.cs">
+    <Compile Include="Design\RegisterUser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Windows Foms\RegisterUser.Designer.cs">
+    <Compile Include="Design\RegisterUser.Designer.cs">
       <DependentUpon>RegisterUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows Foms\Shelter.cs">
+    <Compile Include="Design\Shelter.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Windows Foms\Shelter.Designer.cs">
+    <Compile Include="Design\Shelter.Designer.cs">
       <DependentUpon>Shelter.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Windows Foms\Form1.resx">
+    <EmbeddedResource Include="Design\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -79,6 +79,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Design\RegisterUser.resx">
+      <DependentUpon>RegisterUser.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

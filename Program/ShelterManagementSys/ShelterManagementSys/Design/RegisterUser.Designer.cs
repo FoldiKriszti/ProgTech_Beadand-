@@ -28,17 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.login_check = new System.Windows.Forms.CheckBox();
-            this.btnLogin = new System.Windows.Forms.Button();
-            this.txtPass = new System.Windows.Forms.TextBox();
-            this.txtUser = new System.Windows.Forms.TextBox();
+            this.reg_check = new System.Windows.Forms.CheckBox();
+            this.btnReg = new System.Windows.Forms.Button();
+            this.txtPass_reg = new System.Windows.Forms.TextBox();
+            this.txtUser_reg = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.btn_sUP = new System.Windows.Forms.Button();
+            this.btn_sIN = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.exit = new System.Windows.Forms.Label();
@@ -46,48 +46,50 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // login_check
+            // reg_check
             // 
-            this.login_check.AutoSize = true;
-            this.login_check.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.login_check.Location = new System.Drawing.Point(428, 212);
-            this.login_check.Name = "login_check";
-            this.login_check.Size = new System.Drawing.Size(101, 17);
-            this.login_check.TabIndex = 32;
-            this.login_check.Text = "Show password";
-            this.login_check.UseVisualStyleBackColor = true;
+            this.reg_check.AutoSize = true;
+            this.reg_check.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.reg_check.Location = new System.Drawing.Point(428, 212);
+            this.reg_check.Name = "reg_check";
+            this.reg_check.Size = new System.Drawing.Size(101, 17);
+            this.reg_check.TabIndex = 32;
+            this.reg_check.Text = "Show password";
+            this.reg_check.UseVisualStyleBackColor = true;
+            this.reg_check.CheckedChanged += new System.EventHandler(this.reg_check_CheckedChanged);
             // 
-            // btnLogin
+            // btnReg
             // 
-            this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(138)))), ((int)(((byte)(36)))));
-            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnLogin.FlatAppearance.BorderSize = 0;
-            this.btnLogin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(52)))), ((int)(((byte)(39)))));
-            this.btnLogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(52)))), ((int)(((byte)(39)))));
-            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnLogin.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnLogin.Location = new System.Drawing.Point(316, 252);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(67, 31);
-            this.btnLogin.TabIndex = 31;
-            this.btnLogin.Text = "SIGN UP";
-            this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnReg.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(138)))), ((int)(((byte)(36)))));
+            this.btnReg.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnReg.FlatAppearance.BorderSize = 0;
+            this.btnReg.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(52)))), ((int)(((byte)(39)))));
+            this.btnReg.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(52)))), ((int)(((byte)(39)))));
+            this.btnReg.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReg.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnReg.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnReg.Location = new System.Drawing.Point(316, 252);
+            this.btnReg.Name = "btnReg";
+            this.btnReg.Size = new System.Drawing.Size(67, 31);
+            this.btnReg.TabIndex = 31;
+            this.btnReg.Text = "SIGN UP";
+            this.btnReg.UseVisualStyleBackColor = false;
+            this.btnReg.Click += new System.EventHandler(this.btnReg_Click);
             // 
-            // txtPass
+            // txtPass_reg
             // 
-            this.txtPass.Location = new System.Drawing.Point(316, 175);
-            this.txtPass.Name = "txtPass";
-            this.txtPass.PasswordChar = '*';
-            this.txtPass.Size = new System.Drawing.Size(213, 20);
-            this.txtPass.TabIndex = 30;
+            this.txtPass_reg.Location = new System.Drawing.Point(316, 175);
+            this.txtPass_reg.Name = "txtPass_reg";
+            this.txtPass_reg.PasswordChar = '*';
+            this.txtPass_reg.Size = new System.Drawing.Size(213, 20);
+            this.txtPass_reg.TabIndex = 30;
             // 
-            // txtUser
+            // txtUser_reg
             // 
-            this.txtUser.Location = new System.Drawing.Point(316, 124);
-            this.txtUser.Name = "txtUser";
-            this.txtUser.Size = new System.Drawing.Size(213, 20);
-            this.txtUser.TabIndex = 29;
+            this.txtUser_reg.Location = new System.Drawing.Point(316, 124);
+            this.txtUser_reg.Name = "txtUser_reg";
+            this.txtUser_reg.Size = new System.Drawing.Size(213, 20);
+            this.txtUser_reg.TabIndex = 29;
             // 
             // label5
             // 
@@ -124,7 +126,7 @@
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(241)))), ((int)(((byte)(236)))));
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.btn_sUP);
+            this.panel1.Controls.Add(this.btn_sIN);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -153,22 +155,23 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Management System";
             // 
-            // btn_sUP
+            // btn_sIN
             // 
-            this.btn_sUP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(138)))), ((int)(((byte)(36)))));
-            this.btn_sUP.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_sUP.FlatAppearance.BorderSize = 0;
-            this.btn_sUP.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(52)))), ((int)(((byte)(39)))));
-            this.btn_sUP.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(52)))), ((int)(((byte)(39)))));
-            this.btn_sUP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_sUP.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btn_sUP.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_sUP.Location = new System.Drawing.Point(59, 319);
-            this.btn_sUP.Name = "btn_sUP";
-            this.btn_sUP.Size = new System.Drawing.Size(163, 31);
-            this.btn_sUP.TabIndex = 18;
-            this.btn_sUP.Text = "SIGN IN";
-            this.btn_sUP.UseVisualStyleBackColor = false;
+            this.btn_sIN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(138)))), ((int)(((byte)(36)))));
+            this.btn_sIN.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_sIN.FlatAppearance.BorderSize = 0;
+            this.btn_sIN.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(52)))), ((int)(((byte)(39)))));
+            this.btn_sIN.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(84)))), ((int)(((byte)(52)))), ((int)(((byte)(39)))));
+            this.btn_sIN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_sIN.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btn_sIN.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn_sIN.Location = new System.Drawing.Point(59, 319);
+            this.btn_sIN.Name = "btn_sIN";
+            this.btn_sIN.Size = new System.Drawing.Size(163, 31);
+            this.btn_sIN.TabIndex = 18;
+            this.btn_sIN.Text = "SIGN IN";
+            this.btn_sIN.UseVisualStyleBackColor = false;
+            this.btn_sIN.Click += new System.EventHandler(this.btn_sIN_Click);
             // 
             // label1
             // 
@@ -198,6 +201,7 @@
             this.exit.Size = new System.Drawing.Size(15, 16);
             this.exit.TabIndex = 33;
             this.exit.Text = "X";
+            this.exit.Click += new System.EventHandler(this.exit_Click);
             // 
             // RegisterUser
             // 
@@ -206,10 +210,10 @@
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(584, 361);
             this.Controls.Add(this.exit);
-            this.Controls.Add(this.login_check);
-            this.Controls.Add(this.btnLogin);
-            this.Controls.Add(this.txtPass);
-            this.Controls.Add(this.txtUser);
+            this.Controls.Add(this.reg_check);
+            this.Controls.Add(this.btnReg);
+            this.Controls.Add(this.txtPass_reg);
+            this.Controls.Add(this.txtUser_reg);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -228,17 +232,17 @@
 
         #endregion
 
-        private System.Windows.Forms.CheckBox login_check;
-        private System.Windows.Forms.Button btnLogin;
-        private System.Windows.Forms.TextBox txtPass;
-        private System.Windows.Forms.TextBox txtUser;
+        private System.Windows.Forms.CheckBox reg_check;
+        private System.Windows.Forms.Button btnReg;
+        private System.Windows.Forms.TextBox txtPass_reg;
+        private System.Windows.Forms.TextBox txtUser_reg;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btn_sUP;
+        private System.Windows.Forms.Button btn_sIN;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label exit;
