@@ -13,3 +13,18 @@ C:\Users\Kriszti\Desktop\Progtech\ProgTech_Beadand-\Program\ShelterManagementSys
 C:\Users\Kriszti\Desktop\Progtech\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\obj\Debug\ShelterManagementSys.Shelter.resources
 C:\Users\Kriszti\Desktop\Progtech\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\obj\Debug\ShelterManagementSys.User_Control_Panels.AddAnimal.resources
 C:\Users\Kriszti\Desktop\Progtech\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\obj\Debug\ShelterManagementSys.AddAdoption.resources
+C:\Users\Dula-Demkó Emese\Desktop\Mappa\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\bin\Debug\ShelterManagementSys.exe.config
+C:\Users\Dula-Demkó Emese\Desktop\Mappa\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\bin\Debug\ShelterManagementSys.exe
+C:\Users\Dula-Demkó Emese\Desktop\Mappa\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\bin\Debug\ShelterManagementSys.pdb
+C:\Users\Dula-Demkó Emese\Desktop\Mappa\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\obj\Debug\ShelterManagementSys.csproj.AssemblyReference.cache
+C:\Users\Dula-Demkó Emese\Desktop\Mappa\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\obj\Debug\ShelterManagementSys.Dashboard.resources
+C:\Users\Dula-Demkó Emese\Desktop\Mappa\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\obj\Debug\ShelterManagementSys.Form1.resources
+C:\Users\Dula-Demkó Emese\Desktop\Mappa\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\obj\Debug\ShelterManagementSys.Shelter.resources
+C:\Users\Dula-Demkó Emese\Desktop\Mappa\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\obj\Debug\ShelterManagementSys.Properties.Resources.resources
+C:\Users\Dula-Demkó Emese\Desktop\Mappa\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\obj\Debug\ShelterManagementSys.RegisterUser.resources
+C:\Users\Dula-Demkó Emese\Desktop\Mappa\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\obj\Debug\ShelterManagementSys.AddAdoption.resources
+C:\Users\Dula-Demkó Emese\Desktop\Mappa\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\obj\Debug\ShelterManagementSys.User_Control_Panels.AddAnimal.resources
+C:\Users\Dula-Demkó Emese\Desktop\Mappa\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\obj\Debug\ShelterManagementSys.csproj.GenerateResource.cache
+C:\Users\Dula-Demkó Emese\Desktop\Mappa\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\obj\Debug\ShelterManagementSys.csproj.CoreCompileInputs.cache
+C:\Users\Dula-Demkó Emese\Desktop\Mappa\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\obj\Debug\ShelterManagementSys.exe
+C:\Users\Dula-Demkó Emese\Desktop\Mappa\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\obj\Debug\ShelterManagementSys.pdb

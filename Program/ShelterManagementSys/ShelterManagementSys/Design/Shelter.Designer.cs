@@ -39,8 +39,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.addAnimal1 = new ShelterManagementSys.User_Control_Panels.AddAnimal();
             this.addAdoption1 = new ShelterManagementSys.AddAdoption();
+            this.addAnimal1 = new ShelterManagementSys.User_Control_Panels.AddAnimal();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -195,19 +195,20 @@
             this.panel3.Size = new System.Drawing.Size(868, 535);
             this.panel3.TabIndex = 2;
             // 
-            // addAnimal1
-            // 
-            this.addAnimal1.Location = new System.Drawing.Point(0, 0);
-            this.addAnimal1.Name = "addAnimal1";
-            this.addAnimal1.Size = new System.Drawing.Size(868, 532);
-            this.addAnimal1.TabIndex = 0;
-            // 
             // addAdoption1
             // 
             this.addAdoption1.Location = new System.Drawing.Point(0, 0);
             this.addAdoption1.Name = "addAdoption1";
             this.addAdoption1.Size = new System.Drawing.Size(865, 535);
             this.addAdoption1.TabIndex = 1;
+            this.addAdoption1.Load += new System.EventHandler(this.addAdoption1_Load);
+            // 
+            // addAnimal1
+            // 
+            this.addAnimal1.Location = new System.Drawing.Point(0, 0);
+            this.addAnimal1.Name = "addAnimal1";
+            this.addAnimal1.Size = new System.Drawing.Size(868, 532);
+            this.addAnimal1.TabIndex = 0;
             // 
             // Shelter
             // 

@@ -13,7 +13,7 @@ namespace ShelterManagementSys
 {
     public partial class Form1 : Form
     {
-        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Kriszti\Documents\employee.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\Dula-Demkó Emese\Documents\animals.mdf"";Integrated Security=True;Connect Timeout=30");
         public Form1()
         {
             InitializeComponent();
@@ -28,15 +28,15 @@ namespace ShelterManagementSys
             }
             else
             {
-                if (conn.State == ConnectionState.Closed)
+                if (connection.State == ConnectionState.Closed)
                 {
                     try
                     {
-                        conn.Open();
+                        connection.Open();
 
                         string selectData = "SELECT * FROM users WHERE username = @username AND password = @password";
 
-                        using (SqlCommand cmd = new SqlCommand(selectData, conn))
+                        using (SqlCommand cmd = new SqlCommand(selectData, connection))
                         {
                             cmd.Parameters.AddWithValue("@username", txtUser.Text.Trim());
                             cmd.Parameters.AddWithValue("@password", txtPass.Text.Trim());
@@ -68,7 +68,7 @@ namespace ShelterManagementSys
                     }
                     finally
                     {
-                        conn.Close();
+                        connection.Close();
                     }
                 }
             }
@@ -109,6 +109,11 @@ namespace ShelterManagementSys
         private void login_check_CheckedChanged(object sender, EventArgs e)
         {
             txtPass.PasswordChar = login_check.Checked ? '\0' : '*';            
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

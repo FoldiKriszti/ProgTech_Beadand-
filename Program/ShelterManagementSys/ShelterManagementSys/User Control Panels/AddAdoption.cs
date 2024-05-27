@@ -14,7 +14,7 @@ namespace ShelterManagementSys
 {
     public partial class AddAdoption : UserControl
     {
-        SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Kriszti\Documents\employee.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\Dula-Demkó Emese\Documents\animals.mdf"";Integrated Security=True;Connect Timeout=30");
         public AddAdoption()
         {
             InitializeComponent();
@@ -138,6 +138,11 @@ namespace ShelterManagementSys
                 txtAddress.Text = row.Cells[6].Value != null ? row.Cells[6].Value.ToString() : "";
                 txtPhone.Text = row.Cells[7].Value != null ? row.Cells[7].Value.ToString() : "";
             }
+        }
+
+        private void AddAdoption_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

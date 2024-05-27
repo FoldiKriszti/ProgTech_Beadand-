@@ -48,5 +48,10 @@ namespace ShelterManagementSys
             addAnimal1.Visible = false;
             addAdoption1.Visible = true;
         }
+
+        private void addAdoption1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -13,7 +13,7 @@ namespace ShelterManagementSys
 {
     public partial class RegisterUser : Form
     {
-        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Kriszti\Documents\employee.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\Dula-Demkó Emese\Documents\animals.mdf"";Integrated Security=True;Connect Timeout=30");
         public RegisterUser()
         {
             InitializeComponent();
@@ -39,15 +39,15 @@ namespace ShelterManagementSys
 
             else 
             {
-                if (conn.State != ConnectionState.Open)
+                if (connection.State != ConnectionState.Open)
                 {
                     try
                     {
-                        conn.Open();
+                        connection.Open();
 
                         string selectUsername = "SELECT COUNT(id) FROM users WHERE username = @user";
 
-                        using (SqlCommand checkUser = new SqlCommand(selectUsername,conn))
+                        using (SqlCommand checkUser = new SqlCommand(selectUsername,connection))
                         {
                             checkUser.Parameters.AddWithValue("@user", txtUser_reg.Text.Trim());
                             int count = (int)checkUser.ExecuteScalar();
@@ -64,7 +64,7 @@ namespace ShelterManagementSys
                                     "(username, password) " +
                                     "VALUES(@username, @password)";
 
-                                using (SqlCommand cmd = new SqlCommand(insertData, conn))
+                                using (SqlCommand cmd = new SqlCommand(insertData, connection))
                                 {
                                     cmd.Parameters.AddWithValue("@username", txtUser_reg.Text.Trim());
                                     cmd.Parameters.AddWithValue("@password", txtPass_reg.Text.Trim());
@@ -87,7 +87,7 @@ namespace ShelterManagementSys
                     }
                     finally 
                     {
-                        conn.Close();
+                        connection.Close();
                     }
                 }
 
@@ -99,6 +99,11 @@ namespace ShelterManagementSys
             Form1 loginForm = new Form1();
             loginForm.Show();
             this.Hide();    
+        }
+
+        private void RegisterUser_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

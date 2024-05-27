@@ -30,6 +30,7 @@
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label10 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
             this.txtAdoption = new System.Windows.Forms.ComboBox();
@@ -52,7 +53,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -67,6 +67,17 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(412, 484);
             this.panel2.TabIndex = 4;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label10.Location = new System.Drawing.Point(12, 30);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(188, 29);
+            this.label10.TabIndex = 34;
+            this.label10.Text = "Adoption started";
             // 
             // dataGridView1
             // 
@@ -89,7 +100,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(374, 401);
             this.dataGridView1.TabIndex = 3;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
-            
             // 
             // panel1
             // 
@@ -331,17 +341,6 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Start new Adoption";
             // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label10.Location = new System.Drawing.Point(12, 30);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(188, 29);
-            this.label10.TabIndex = 34;
-            this.label10.Text = "Adoption started";
-            // 
             // AddAdoption
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -350,6 +349,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "AddAdoption";
             this.Size = new System.Drawing.Size(852, 526);
+            this.Load += new System.EventHandler(this.AddAdoption_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

@@ -326,7 +326,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(763, 214);
             this.dataGridView1.TabIndex = 1;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
-            
             // 
             // label1
             // 
@@ -346,6 +345,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "AddAnimal";
             this.Size = new System.Drawing.Size(852, 526);
+            this.Load += new System.EventHandler(this.AddAnimal_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
