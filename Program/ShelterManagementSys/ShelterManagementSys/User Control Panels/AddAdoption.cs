@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ShelterManagementSys.User_Control_Panels;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -112,21 +113,6 @@ namespace ShelterManagementSys
             clearFields();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            if (e.RowIndex != -1)
-            {
-                DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
-                txtAnimalID.Text = row.Cells[0].Value.ToString();
-                txtAnimalName.Text = row.Cells[1].Value.ToString();
-                txtAnimalAge.Text = row.Cells[2].Value.ToString();
-                txtAdoption.Text = row.Cells[5].Value.ToString();
-                txtFamily.Text = row.Cells[6].Value.ToString();
-                txtAddress.Text = row.Cells[7].Value.ToString();
-                txtPhone.Text = row.Cells[8].Value.ToString();
-
-            }
-        }
         public void clearFields()
         {
             txtAnimalID.Text = "";
@@ -138,5 +124,20 @@ namespace ShelterManagementSys
             txtAdoption.SelectedIndex = -1;
         }
 
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex != -1 && e.ColumnIndex != -1)
+            {
+                DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
+
+                txtAnimalID.Text = row.Cells[1].Value != null ? row.Cells[1].Value.ToString() : "";
+                txtAnimalName.Text = row.Cells[2].Value != null ? row.Cells[2].Value.ToString() : "";
+                txtAnimalAge.Text = row.Cells[3].Value != null ? row.Cells[3].Value.ToString() : "";
+                txtAdoption.Text = row.Cells[4].Value != null ? row.Cells[4].Value.ToString() : "";
+                txtFamily.Text = row.Cells[5].Value != null ? row.Cells[5].Value.ToString() : "";
+                txtAddress.Text = row.Cells[6].Value != null ? row.Cells[6].Value.ToString() : "";
+                txtPhone.Text = row.Cells[7].Value != null ? row.Cells[7].Value.ToString() : "";
+            }
+        }
     }
 }
