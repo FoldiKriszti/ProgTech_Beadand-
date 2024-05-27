@@ -16,5 +16,23 @@ namespace ShelterManagementSys
         {
             InitializeComponent();
         }
+
+        private void exit_Click(object sender, EventArgs e)
+        {
+            Application.Exit(); 
+        }
+
+        private void btn_logout_Click(object sender, EventArgs e)
+        {
+            DialogResult check = MessageBox.Show("Are you sure you want to login?", 
+                "Confirmation Message", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (check == DialogResult.Yes) 
+            {
+                Form1 loginform = new Form1();
+                loginform.Show();
+                this.Hide();
+            }
+        }
     }
 }

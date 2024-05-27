@@ -33,8 +33,8 @@ namespace ShelterManagementSys
         {
             if (txtUser_reg.Text == "" || txtPass_reg.Text == "")
             {
-                MessageBox.Show("Please fill al the blank fields"
-                    , "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Please fill al the blank fields", 
+                    "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
             else 
@@ -54,8 +54,8 @@ namespace ShelterManagementSys
 
                             if (count >= 1)
                             {
-                                MessageBox.Show(txtUser_reg.Text.Trim() + " is already taken"
-                                    , "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                MessageBox.Show(txtUser_reg.Text.Trim() + " is already taken", 
+                                    "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
                             }
 
                             else
@@ -71,8 +71,8 @@ namespace ShelterManagementSys
 
                                     cmd.BeginExecuteNonQuery();
 
-                                    MessageBox.Show("Registered succesfully!"
-                                        , "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                    MessageBox.Show("Registered succesfully!", 
+                                        "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                                     Form1 loginForm = new Form1();
                                     loginForm.Show();
