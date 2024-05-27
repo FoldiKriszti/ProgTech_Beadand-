@@ -1,0 +1,11 @@
+C:\Users\Kriszti\Desktop\Progtech\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\bin\Debug\ShelterManagementSys.exe.config
+C:\Users\Kriszti\Desktop\Progtech\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\bin\Debug\ShelterManagementSys.exe
+C:\Users\Kriszti\Desktop\Progtech\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\bin\Debug\ShelterManagementSys.pdb
+C:\Users\Kriszti\Desktop\Progtech\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\obj\Debug\ShelterManagementSys.csproj.AssemblyReference.cache
+C:\Users\Kriszti\Desktop\Progtech\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\obj\Debug\ShelterManagementSys.csproj.SuggestedBindingRedirects.cache
+C:\Users\Kriszti\Desktop\Progtech\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\obj\Debug\ShelterManagementSys.Form1.resources
+C:\Users\Kriszti\Desktop\Progtech\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\obj\Debug\ShelterManagementSys.Properties.Resources.resources
+C:\Users\Kriszti\Desktop\Progtech\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\obj\Debug\ShelterManagementSys.csproj.GenerateResource.cache
+C:\Users\Kriszti\Desktop\Progtech\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\obj\Debug\ShelterManagementSys.csproj.CoreCompileInputs.cache
+C:\Users\Kriszti\Desktop\Progtech\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\obj\Debug\ShelterManagementSys.exe
+C:\Users\Kriszti\Desktop\Progtech\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\obj\Debug\ShelterManagementSys.pdb
