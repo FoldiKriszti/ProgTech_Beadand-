@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnimalsData.cs" />
     <Compile Include="Design\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +67,12 @@
     <Compile Include="Design\Shelter.Designer.cs">
       <DependentUpon>Shelter.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddAnimal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddAnimal.Designer.cs">
+      <DependentUpon>AddAnimal.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Design\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -85,6 +92,9 @@
     <EmbeddedResource Include="Design\RegisterUser.resx">
       <DependentUpon>RegisterUser.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AddAnimal.resx">
+      <DependentUpon>AddAnimal.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -100,6 +110,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\35634172_06 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="User Control Panels\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

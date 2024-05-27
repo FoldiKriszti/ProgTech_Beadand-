@@ -11,3 +11,4 @@ C:\Users\Kriszti\Desktop\Progtech\ProgTech_Beadand-\Program\ShelterManagementSys
 C:\Users\Kriszti\Desktop\Progtech\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\obj\Debug\ShelterManagementSys.pdb
 C:\Users\Kriszti\Desktop\Progtech\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\obj\Debug\ShelterManagementSys.RegisterUser.resources
 C:\Users\Kriszti\Desktop\Progtech\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\obj\Debug\ShelterManagementSys.Shelter.resources
+C:\Users\Kriszti\Desktop\Progtech\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\obj\Debug\ShelterManagementSys.User_Control_Panels.AddAnimal.resources

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ShelterManagementSys.User_Control_Panels;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -33,6 +34,11 @@ namespace ShelterManagementSys
                 loginform.Show();
                 this.Hide();
             }
+        }
+
+        private void add_btn_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }

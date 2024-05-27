@@ -38,9 +38,12 @@
             this.dash_btn = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.addAnimal1 = new ShelterManagementSys.User_Control_Panels.AddAnimal();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -142,6 +145,7 @@
             this.add_btn.TabIndex = 3;
             this.add_btn.Text = "ADD PET";
             this.add_btn.UseVisualStyleBackColor = false;
+            this.add_btn.Click += new System.EventHandler(this.add_btn_Click);
             // 
             // dash_btn
             // 
@@ -179,12 +183,29 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.addAnimal1);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(232, 35);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(868, 535);
+            this.panel3.TabIndex = 2;
+            // 
+            // addAnimal1
+            // 
+            this.addAnimal1.Location = new System.Drawing.Point(0, 0);
+            this.addAnimal1.Name = "addAnimal1";
+            this.addAnimal1.Size = new System.Drawing.Size(868, 532);
+            this.addAnimal1.TabIndex = 0;
+            // 
             // Shelter
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1100, 570);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -196,6 +217,7 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -212,5 +234,7 @@
         private System.Windows.Forms.Button dash_btn;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel3;
+        private User_Control_Panels.AddAnimal addAnimal1;
     }
 }
