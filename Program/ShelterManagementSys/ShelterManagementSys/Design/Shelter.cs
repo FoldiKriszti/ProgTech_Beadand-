@@ -38,7 +38,15 @@ namespace ShelterManagementSys
 
         private void add_btn_Click(object sender, EventArgs e)
         {
-           
+            addAnimal1.Visible = true;
+            addAdoption1.Visible = false;
+
+        }
+
+        private void adopt_btn_Click(object sender, EventArgs e)
+        {
+            addAnimal1.Visible = false;
+            addAdoption1.Visible = true;
         }
     }
 }
