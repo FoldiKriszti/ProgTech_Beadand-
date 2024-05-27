@@ -168,6 +168,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "Dashboard";
             this.Size = new System.Drawing.Size(852, 526);
+            this.Load += new System.EventHandler(this.Dashboard_Load);
             this.panel1.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
