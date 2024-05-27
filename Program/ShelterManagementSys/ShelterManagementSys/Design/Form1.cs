@@ -23,7 +23,8 @@ namespace ShelterManagementSys
         {
             if (txtUser.Text == " " || txtPass.Text == "")
             {
-                MessageBox.Show("Please fill all the blank fields", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Please fill all the blank fields"
+                    , "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
@@ -46,7 +47,8 @@ namespace ShelterManagementSys
 
                             if (table.Rows.Count >= 1)
                             {
-                                MessageBox.Show("Login succesfully", "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                MessageBox.Show("Login succesfully"
+                                    , "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
                                 Shelter s = new Shelter();
                                 s.Show();
                                 this.Hide();
@@ -54,7 +56,8 @@ namespace ShelterManagementSys
 
                             else
                             {
-                                MessageBox.Show("Incorrect username/password", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                MessageBox.Show("Incorrect username/password"
+                                    , "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
                             }
                         }
 
