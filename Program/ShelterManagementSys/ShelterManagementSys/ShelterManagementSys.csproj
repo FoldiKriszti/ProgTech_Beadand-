@@ -67,10 +67,10 @@
     <Compile Include="Design\Shelter.Designer.cs">
       <DependentUpon>Shelter.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddAnimal.cs">
+    <Compile Include="User Control Panels\AddAnimal.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="AddAnimal.Designer.cs">
+    <Compile Include="User Control Panels\AddAnimal.Designer.cs">
       <DependentUpon>AddAnimal.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Design\Form1.resx">
@@ -92,7 +92,7 @@
     <EmbeddedResource Include="Design\RegisterUser.resx">
       <DependentUpon>RegisterUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddAnimal.resx">
+    <EmbeddedResource Include="User Control Panels\AddAnimal.resx">
       <DependentUpon>AddAnimal.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
@@ -111,8 +111,6 @@
   <ItemGroup>
     <None Include="Resources\35634172_06 %281%29.jpg" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="User Control Panels\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
