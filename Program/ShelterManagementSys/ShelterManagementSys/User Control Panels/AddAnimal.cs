@@ -19,6 +19,17 @@ namespace ShelterManagementSys.User_Control_Panels
             InitializeComponent();
             displayAnimalsData();
         }
+
+        public void RefreshData()
+        {
+            if (InvokeRequired)
+            {
+                Invoke((MethodInvoker)RefreshData);
+                return;
+            }
+            displayAnimalsData();
+        }
+
         public void displayAnimalsData()
         {
             AnimalsData ad = new AnimalsData();

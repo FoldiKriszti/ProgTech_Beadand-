@@ -21,6 +21,16 @@ namespace ShelterManagementSys
             displayAnimals();
         }
 
+        public void RefreshData()
+        {
+            if (InvokeRequired)
+            {
+                Invoke((MethodInvoker)RefreshData);
+                return;
+            }
+            displayAnimals();
+        }
+
         public void displayAnimals()
         {
             AdoptionData ad = new AdoptionData();
