@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IAnimalsData.cs" />
     <Compile Include="User Control Panels\Dashboard.cs">
       <SubType>UserControl</SubType>
     </Compile>

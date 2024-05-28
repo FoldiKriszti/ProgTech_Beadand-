@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Dula-Demk\u00F3 Emese\\Desktop\\Mappa\\ProgTech_Beadand-\\Program\\ShelterManagementSys\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35700ECA-6CF7-45F3-BABA-B2ACF6446E13}|ShelterManagementSys\\ShelterManagementSys.csproj|C:\\Users\\Dula-Demk\u00F3 Emese\\Desktop\\Mappa\\ProgTech_Beadand-\\Program\\ShelterManagementSys\\sheltermanagementsys\\design\\shelter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35700ECA-6CF7-45F3-BABA-B2ACF6446E13}|ShelterManagementSys\\ShelterManagementSys.csproj|c:\\users\\dula-demk\u00F3 emese\\desktop\\mappa\\progtech_beadand-\\program\\sheltermanagementsys\\sheltermanagementsys\\ianimalsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35700ECA-6CF7-45F3-BABA-B2ACF6446E13}|ShelterManagementSys\\ShelterManagementSys.csproj|solutionrelative:sheltermanagementsys\\ianimalsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35700ECA-6CF7-45F3-BABA-B2ACF6446E13}|ShelterManagementSys\\ShelterManagementSys.csproj|c:\\users\\dula-demk\u00F3 emese\\desktop\\mappa\\progtech_beadand-\\program\\sheltermanagementsys\\sheltermanagementsys\\design\\shelter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35700ECA-6CF7-45F3-BABA-B2ACF6446E13}|ShelterManagementSys\\ShelterManagementSys.csproj|solutionrelative:sheltermanagementsys\\design\\shelter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{35700ECA-6CF7-45F3-BABA-B2ACF6446E13}|ShelterManagementSys\\ShelterManagementSys.csproj|solutionrelative:sheltermanagementsys\\design\\shelter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35700ECA-6CF7-45F3-BABA-B2ACF6446E13}|ShelterManagementSys\\ShelterManagementSys.csproj|c:\\users\\dula-demk\u00F3 emese\\desktop\\mappa\\progtech_beadand-\\program\\sheltermanagementsys\\sheltermanagementsys\\user control panels\\addadoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35700ECA-6CF7-45F3-BABA-B2ACF6446E13}|ShelterManagementSys\\ShelterManagementSys.csproj|C:\\Users\\Dula-Demk\u00F3 Emese\\Desktop\\Mappa\\ProgTech_Beadand-\\Program\\ShelterManagementSys\\sheltermanagementsys\\user control panels\\addadoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35700ECA-6CF7-45F3-BABA-B2ACF6446E13}|ShelterManagementSys\\ShelterManagementSys.csproj|solutionrelative:sheltermanagementsys\\user control panels\\addadoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -74,15 +78,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IAnimalsData.cs",
+              "DocumentMoniker": "C:\\Users\\Dula-Demk\u00F3 Emese\\Desktop\\Mappa\\ProgTech_Beadand-\\Program\\ShelterManagementSys\\ShelterManagementSys\\IAnimalsData.cs",
+              "RelativeDocumentMoniker": "ShelterManagementSys\\IAnimalsData.cs",
+              "ToolTip": "C:\\Users\\Dula-Demk\u00F3 Emese\\Desktop\\Mappa\\ProgTech_Beadand-\\Program\\ShelterManagementSys\\ShelterManagementSys\\IAnimalsData.cs",
+              "RelativeToolTip": "ShelterManagementSys\\IAnimalsData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T17:43:49.893Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Dashboard.cs",
               "DocumentMoniker": "C:\\Users\\Dula-Demk\u00F3 Emese\\Desktop\\Mappa\\ProgTech_Beadand-\\Program\\ShelterManagementSys\\ShelterManagementSys\\User Control Panels\\Dashboard.cs",
               "RelativeDocumentMoniker": "ShelterManagementSys\\User Control Panels\\Dashboard.cs",
@@ -94,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AdoptionData.cs",
               "DocumentMoniker": "C:\\Users\\Dula-Demk\u00F3 Emese\\Desktop\\Mappa\\ProgTech_Beadand-\\Program\\ShelterManagementSys\\ShelterManagementSys\\AdoptionData.cs",
               "RelativeDocumentMoniker": "ShelterManagementSys\\AdoptionData.cs",
@@ -106,19 +123,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AddAdoption.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Dula-Demk\u00F3 Emese\\Desktop\\Mappa\\ProgTech_Beadand-\\Program\\ShelterManagementSys\\ShelterManagementSys\\User Control Panels\\AddAdoption.cs",
               "RelativeDocumentMoniker": "ShelterManagementSys\\User Control Panels\\AddAdoption.cs",
               "ToolTip": "C:\\Users\\Dula-Demk\u00F3 Emese\\Desktop\\Mappa\\ProgTech_Beadand-\\Program\\ShelterManagementSys\\ShelterManagementSys\\User Control Panels\\AddAdoption.cs [Design]",
               "RelativeToolTip": "ShelterManagementSys\\User Control Panels\\AddAdoption.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T21:54:51.942Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-27T21:54:51.942Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AddAdoption.cs",
               "DocumentMoniker": "C:\\Users\\Dula-Demk\u00F3 Emese\\Desktop\\Mappa\\ProgTech_Beadand-\\Program\\ShelterManagementSys\\ShelterManagementSys\\User Control Panels\\AddAdoption.cs",
               "RelativeDocumentMoniker": "ShelterManagementSys\\User Control Panels\\AddAdoption.cs",
@@ -126,12 +142,11 @@
               "RelativeToolTip": "ShelterManagementSys\\User Control Panels\\AddAdoption.cs",
               "ViewState": "AQIAAFEAAAAAAAAAAAAAAJoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T20:36:07.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T20:36:07.77Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Shelter.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Dula-Demk\u00F3 Emese\\Desktop\\Mappa\\ProgTech_Beadand-\\Program\\ShelterManagementSys\\ShelterManagementSys\\Design\\Shelter.cs",
               "RelativeDocumentMoniker": "ShelterManagementSys\\Design\\Shelter.cs",
@@ -143,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Shelter.cs",
               "DocumentMoniker": "C:\\Users\\Dula-Demk\u00F3 Emese\\Desktop\\Mappa\\ProgTech_Beadand-\\Program\\ShelterManagementSys\\ShelterManagementSys\\Design\\Shelter.cs",
               "RelativeDocumentMoniker": "ShelterManagementSys\\Design\\Shelter.cs",
@@ -156,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Dashboard.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Dula-Demk\u00F3 Emese\\Desktop\\Mappa\\ProgTech_Beadand-\\Program\\ShelterManagementSys\\ShelterManagementSys\\User Control Panels\\Dashboard.cs",
               "RelativeDocumentMoniker": "ShelterManagementSys\\User Control Panels\\Dashboard.cs",
@@ -167,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "AddAnimal.cs",
               "DocumentMoniker": "C:\\Users\\Dula-Demk\u00F3 Emese\\Desktop\\Mappa\\ProgTech_Beadand-\\Program\\ShelterManagementSys\\ShelterManagementSys\\User Control Panels\\AddAnimal.cs",
               "RelativeDocumentMoniker": "ShelterManagementSys\\User Control Panels\\AddAnimal.cs",
@@ -179,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "AddAnimal.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Dula-Demk\u00F3 Emese\\Desktop\\Mappa\\ProgTech_Beadand-\\Program\\ShelterManagementSys\\ShelterManagementSys\\User Control Panels\\AddAnimal.cs",
               "RelativeDocumentMoniker": "ShelterManagementSys\\User Control Panels\\AddAnimal.cs",
@@ -190,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "RegisterUser.cs",
               "DocumentMoniker": "C:\\Users\\Dula-Demk\u00F3 Emese\\Desktop\\Mappa\\ProgTech_Beadand-\\Program\\ShelterManagementSys\\ShelterManagementSys\\Design\\RegisterUser.cs",
               "RelativeDocumentMoniker": "ShelterManagementSys\\Design\\RegisterUser.cs",
@@ -202,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "RegisterUser.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Dula-Demk\u00F3 Emese\\Desktop\\Mappa\\ProgTech_Beadand-\\Program\\ShelterManagementSys\\ShelterManagementSys\\Design\\RegisterUser.cs",
               "RelativeDocumentMoniker": "ShelterManagementSys\\Design\\RegisterUser.cs",
@@ -213,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Dula-Demk\u00F3 Emese\\Desktop\\Mappa\\ProgTech_Beadand-\\Program\\ShelterManagementSys\\ShelterManagementSys\\Design\\Form1.cs",
               "RelativeDocumentMoniker": "ShelterManagementSys\\Design\\Form1.cs",
@@ -225,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Dula-Demk\u00F3 Emese\\Desktop\\Mappa\\ProgTech_Beadand-\\Program\\ShelterManagementSys\\ShelterManagementSys\\Design\\Form1.cs",
               "RelativeDocumentMoniker": "ShelterManagementSys\\Design\\Form1.cs",
@@ -236,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Dula-Demk\u00F3 Emese\\Desktop\\Mappa\\ProgTech_Beadand-\\Program\\ShelterManagementSys\\ShelterManagementSys\\Program.cs",
               "RelativeDocumentMoniker": "ShelterManagementSys\\Program.cs",
@@ -248,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "AnimalsData.cs",
               "DocumentMoniker": "C:\\Users\\Dula-Demk\u00F3 Emese\\Desktop\\Mappa\\ProgTech_Beadand-\\Program\\ShelterManagementSys\\ShelterManagementSys\\AnimalsData.cs",
               "RelativeDocumentMoniker": "ShelterManagementSys\\AnimalsData.cs",
@@ -260,14 +275,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "SQLQuery1.sql",
               "DocumentMoniker": "C:\\Users\\Dula-Demk\u00F3 Emese\\Desktop\\Mappa\\ProgTech_Beadand-\\Program\\ShelterManagementSys\\SQLQuery1.sql",
               "RelativeDocumentMoniker": "SQLQuery1.sql",
-              "ToolTip": "C:\\Users\\Dula-Demk\u00F3 Emese\\Desktop\\Mappa\\ProgTech_Beadand-\\Program\\ShelterManagementSys\\SQLQuery1.sql",
-              "RelativeToolTip": "SQLQuery1.sql",
+              "ToolTip": "SQLQuery1.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-05-28T11:14:21.992Z"
+              "WhenOpened": "2024-05-28T11:14:21.992Z",
+              "EditorCaption": ""
             }
           ]
         }
