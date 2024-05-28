@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ShelterManagementSys
 {
-    internal class AnimalsData
+    internal class AnimalsData : IAnimalsData
     {
         
         public int ID { get; set; }

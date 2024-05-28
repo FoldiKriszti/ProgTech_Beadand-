@@ -8,9 +8,16 @@ namespace ShelterManagementSys
 {
     internal class AnimalsDataProxy : IAnimalsData
     {
+        private static AnimalsData animalsData;
+
         public List<AnimalsData> animalsListData()
         {
-            throw new NotImplementedException();
+            if (animalsData == null)
+            {
+                animalsData = new AnimalsData();
+            }
+
+            return animalsData.animalsListData();
         }
     }
 }
