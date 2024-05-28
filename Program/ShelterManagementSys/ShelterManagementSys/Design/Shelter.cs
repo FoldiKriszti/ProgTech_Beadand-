@@ -38,18 +38,30 @@ namespace ShelterManagementSys
 
         private void add_btn_Click(object sender, EventArgs e)
         {
-            dashboard1.Visible = false;
             addAnimal1.Visible = true;
             addAdoption1.Visible = false;
             dashboard1.Visible = false;
+
+            AddAnimal addAnForm = addAnimal1 as AddAnimal;
+
+            if (addAnForm != null)
+            {
+                addAnForm.RefreshData();
+            }
         }
 
         private void adopt_btn_Click(object sender, EventArgs e)
         {
-            dashboard1.Visible = false;
             addAnimal1.Visible = false;
             addAdoption1.Visible = true;
             dashboard1.Visible = false;
+
+            AddAdoption addAdForm = addAdoption1 as AddAdoption;
+
+            if (addAdForm != null)
+            {
+                addAdForm.RefreshData();
+            }
         }
 
         private void addAdoption1_Load(object sender, EventArgs e)
