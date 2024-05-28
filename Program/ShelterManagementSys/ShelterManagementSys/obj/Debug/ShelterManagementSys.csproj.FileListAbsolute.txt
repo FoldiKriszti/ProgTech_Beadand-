@@ -28,3 +28,4 @@ C:\Users\Dula-Demkó Emese\Desktop\Mappa\ProgTech_Beadand-\Program\ShelterManage
 C:\Users\Dula-Demkó Emese\Desktop\Mappa\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\obj\Debug\ShelterManagementSys.csproj.CoreCompileInputs.cache
 C:\Users\Dula-Demkó Emese\Desktop\Mappa\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\obj\Debug\ShelterManagementSys.exe
 C:\Users\Dula-Demkó Emese\Desktop\Mappa\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\obj\Debug\ShelterManagementSys.pdb
+C:\Users\Kriszti\Desktop\Progtech\ProgTech_Beadand-\Program\ShelterManagementSys\ShelterManagementSys\obj\Debug\ShelterManagementSys.Dashboard.resources

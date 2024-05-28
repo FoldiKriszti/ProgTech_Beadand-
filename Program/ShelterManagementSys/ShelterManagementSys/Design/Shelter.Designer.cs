@@ -39,6 +39,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.dashboard1 = new ShelterManagementSys.Dashboard();
             this.addAdoption1 = new ShelterManagementSys.AddAdoption();
             this.addAnimal1 = new ShelterManagementSys.User_Control_Panels.AddAnimal();
             this.panel1.SuspendLayout();
@@ -165,6 +166,7 @@
             this.dash_btn.TabIndex = 2;
             this.dash_btn.Text = "DASHBOARD";
             this.dash_btn.UseVisualStyleBackColor = false;
+            this.dash_btn.Click += new System.EventHandler(this.dash_btn_Click);
             // 
             // label2
             // 
@@ -187,6 +189,7 @@
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.dashboard1);
             this.panel3.Controls.Add(this.addAdoption1);
             this.panel3.Controls.Add(this.addAnimal1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -194,6 +197,13 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(868, 535);
             this.panel3.TabIndex = 2;
+            // 
+            // dashboard1
+            // 
+            this.dashboard1.Location = new System.Drawing.Point(0, 0);
+            this.dashboard1.Name = "dashboard1";
+            this.dashboard1.Size = new System.Drawing.Size(852, 526);
+            this.dashboard1.TabIndex = 2;
             // 
             // addAdoption1
             // 
@@ -248,5 +258,6 @@
         private System.Windows.Forms.Panel panel3;
         private User_Control_Panels.AddAnimal addAnimal1;
         private AddAdoption addAdoption1;
+        private Dashboard dashboard1;
     }
 }

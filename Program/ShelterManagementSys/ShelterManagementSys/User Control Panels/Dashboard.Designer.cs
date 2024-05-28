@@ -39,15 +39,19 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.dashboard_TA = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Location = new System.Drawing.Point(18, 184);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(817, 314);
@@ -95,6 +99,7 @@
             this.label5.Size = new System.Drawing.Size(232, 18);
             this.label5.TabIndex = 4;
             this.label5.Text = "Animals waiting to be adopted";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // panel4
             // 
@@ -160,6 +165,15 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Total Animal";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::ShelterManagementSys.Properties.Resources.rsz_7496481_32955;
+            this.pictureBox1.Location = new System.Drawing.Point(18, 16);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(784, 282);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -169,6 +183,7 @@
             this.Name = "Dashboard";
             this.Size = new System.Drawing.Size(852, 526);
             this.Load += new System.EventHandler(this.Dashboard_Load);
+            this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
@@ -176,6 +191,7 @@
             this.panel4.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -193,5 +209,6 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label dashboard_TA;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

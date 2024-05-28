@@ -69,5 +69,15 @@ namespace ShelterManagementSys.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap rsz_7496481_32955 {
+            get {
+                object obj = ResourceManager.GetObject("rsz_7496481_32955", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

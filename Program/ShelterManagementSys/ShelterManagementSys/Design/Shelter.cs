@@ -38,6 +38,7 @@ namespace ShelterManagementSys
 
         private void add_btn_Click(object sender, EventArgs e)
         {
+            dashboard1.Visible = false;
             addAnimal1.Visible = true;
             addAdoption1.Visible = false;
 
@@ -45,6 +46,7 @@ namespace ShelterManagementSys
 
         private void adopt_btn_Click(object sender, EventArgs e)
         {
+            dashboard1.Visible = false;
             addAnimal1.Visible = false;
             addAdoption1.Visible = true;
         }
@@ -52,6 +54,13 @@ namespace ShelterManagementSys
         private void addAdoption1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void dash_btn_Click(object sender, EventArgs e)
+        {
+            dashboard1.Visible = true;
+            addAnimal1.Visible = false;
+            addAdoption1.Visible = false;
         }
     }
 }
