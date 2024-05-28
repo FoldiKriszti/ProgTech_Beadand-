@@ -20,12 +20,12 @@ Projektünk célja egy olyan nyilvántartó rendszer létrehozása, ami segíti 
 ## Üzleti folyamatok modellje
 ### Üzleti szereplők
 A rendszerhez regsiztrált felhasználók tudnak hozzáférni, azonban a Login felületen van lehetőség új felhasználó hozzáadására is. A login oldalon, amennyiben nem töltjük ki helyesen az adatokat, úgy hibaüzenetet kapunk, ellenkező esetben bedob minket a főoldalra.
-Regisztrációkor, ha már meglévő embert szeretnénk hozzáadni, úgy hibaüzenetet dob ki, illetve akkor is, ha az ürlepot üresen akarjuk elküldeni. Ha minden adatot helyesen töltöttünk ki, a Register gombbal tudjuk regsiztrálni magunkat.
+Regisztrációkor, ha már meglévő embert szeretnénk hozzáadni, úgy hibaüzenetet dob ki, illetve akkor is, ha az űrlapot üresen akarjuk elküldeni. Ha minden adatot helyesen töltöttünk ki, a Register gombbal tudjuk regsiztrálni magunkat.
 
 ### Üzleti folyamatok
 Sikeres bejelentkezést követően, a főoldalon azt láthatjuk, hány állat tartózkodik a menhelyen, hányat adtak örökbe, továbbá mennyi kiskedvenc várakozik örökbefogadásra.
 Oldalt a menük közt navigálva tovább láthatjuk az "Add Pet" funkciót, ahol a táblázathoz hozzá adhatjuk az újonnan beérkező állatot, miután megadtuk a szükséges adatokat. Meg kell adni a kiskedvenc azonosító kódját, a nevét, a fajtáját, a korát, illetve, hogy van-e már jelentkező az örökbefogadásra. 
-Van lehetőség az adatok módosítására, a táblázatban kijelöljük az adott állatot, átírjuk a változó adatot, majd az UPDATE gombbal tudjuk frissíteni. Van lehetőség kis állat törlésére is, amennyiben mondjuk az örökbeadás már befejeződött, illetve ha elkezdtük kitölteni az adatokat, de meggondoltuk magunkat, úgy a CLEAR gombbal kitudjuk törölni az űrlapot.
+Van lehetőség az adatok módosítására, a táblázatban kijelöljük az adott állatot, átírjuk a változó adatot, majd az UPDATE gombbal tudjuk frissíteni. Van lehetőség adat törlésre is, amennyiben mondjuk az örökbeadás már befejeződött, illetve ha elkezdtük kitölteni az adatokat, de meggondoltuk magunkat, úgy a CLEAR gombbal kitudjuk törölni az űrlapot.
 A harmadik menüpont az állatok örökbeadásának megkezdése, az ADOPTION menüpont alatt. Miután megadtuk az állat azonosítóját, nevét, korát, illetve a státuszt átállítottuk 'YES'-re, úgy ki tudjuk tölteni az örökbefogadó család adatait, és az UPDATE lenyomásával már frissítettük is az adatbázist, melyet jobb oldalt láthatunk. Szintúgy mint az előző menüpontnál, ha menet közben meggondolnánk magunkat, a CLEAR gombbal tudjuk törölni az űrlapot.
 
 Ha minden feladattal végeztünk, úgy a LOGOUT gomb segítségével ki tudunk jelentkezni, ekkor visszadob a LOGIN felületre, ahol a jobb felső sarokban látható X segítségével tudjuk bezárni a programot.
@@ -78,7 +78,7 @@ Eszközök, melyeket a fejlesztéshez használtunk:
 - Trello
 
 ## Architekturális terv
-A rendszer megfelelő működéséhez adatbázisra van szükség, jelen esetben ez egy helyi Local adatbázis amit a Visual Studio-n belül érhető el.
+A rendszer megfelelő működéséhez adatbázisra van szükség, jelen esetben ez egy helyi Local adatbázis, ami a Visual Studio-n belül érhető el.
 
 ## Tesztterv
 
