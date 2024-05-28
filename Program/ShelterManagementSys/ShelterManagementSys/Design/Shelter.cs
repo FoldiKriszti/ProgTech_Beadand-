@@ -41,7 +41,7 @@ namespace ShelterManagementSys
             dashboard1.Visible = false;
             addAnimal1.Visible = true;
             addAdoption1.Visible = false;
-
+            dashboard1.Visible = false;
         }
 
         private void adopt_btn_Click(object sender, EventArgs e)
@@ -49,6 +49,7 @@ namespace ShelterManagementSys
             dashboard1.Visible = false;
             addAnimal1.Visible = false;
             addAdoption1.Visible = true;
+            dashboard1.Visible = false;
         }
 
         private void addAdoption1_Load(object sender, EventArgs e)
@@ -61,6 +62,26 @@ namespace ShelterManagementSys
             dashboard1.Visible = true;
             addAnimal1.Visible = false;
             addAdoption1.Visible = false;
+
+
+            Dashboard dashForm = dashboard1 as Dashboard;
+
+            if (dashForm != null)
+            {
+                dashForm.RefreshData();
+            }
+
+        }
+
+        private void dashboard1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dashboard1_Load_1(object sender, EventArgs e)
+        {
+
+
         }
     }
 }
