@@ -1,0 +1,2 @@
+﻿ALTER TABLE animals ADD sick VARCHAR(MAX) NULL;
+ALTER TABLE animals ADD vaccina VARCHAR(MAX) NULL;
