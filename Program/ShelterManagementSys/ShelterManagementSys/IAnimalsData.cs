@@ -8,5 +8,6 @@ namespace ShelterManagementSys
 {
     internal interface IAnimalsData
     {
+        List<AnimalsData> animalsListData();
     }
 }
